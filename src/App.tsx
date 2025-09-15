@@ -2,7 +2,7 @@ import { motion, AnimatePresence, color } from "framer-motion";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
-// Типы для секций
+// Section types
 interface SectionDetail {
   name: string;
   desc: string;
@@ -24,7 +24,7 @@ export default function Portfolio() {
       title: "Web Developer",
       text: "I create modern, responsive websites with smooth animations and clean UI/UX.",
       details: [
-        { name: "Portfolio Website", desc: "A personal website to showcase my projects.", url: "https://your-portfolio.com" },
+        { name: "Portfolio Website", desc: "A personal website to showcase my projects.", url: "https://kanashimi42.github.io/Portfolio/" },
         { name: "Website for cleaning company", desc: "Built a website for cleaning company and helped with dns and hosting setup.", url: "https://shinyhouse.es" },
         { name: "Artist portfolio Website", desc: "Personal website for an artist MirenArt", url: "https://kanashimi42.github.io/MirenArt-Portfolio/" }
       ],
